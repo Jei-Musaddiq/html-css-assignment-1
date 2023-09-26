@@ -1,0 +1,67 @@
+html {
+    background-color: #1A1C1D;
+}
+
+.searchbar{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+input[name="q"] {
+    background-color:#1A1C1D;
+    width: 500px;
+    height: 45px;
+    margin-bottom: 100px;
+    border: 1px solid rgb(124,115,101);
+    border-radius: 50px;
+    padding-left: 35px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+
+}
+
+input[name="q"]:hover {
+    background-color: rgb(38,41,42);
+}
+
+input[value="Google Search"] {
+    position: absolute;
+    align-items: left;
+    margin-right: 120px;
+    margin-top: 35px;
+    width: 140px;
+    height: 37px;
+    background-color: #26292A;
+    color: white;
+    font-family: 'Arial';
+    border: .5px solid rgb(124,115,101);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 100;
+    padding-top: 2px;
+}
+
+input[value="Google Search"]:hover {
+    border: rgb(109, 103, 95);
+}
+
+a[name="imagepage"] {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    color: white;
+    margin-top: 30px;
+    margin-right: 100px;
+    font-family: Arial;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+a[name="imagepage"]:hover {
+    
+    text-decoration: underline;
+}
