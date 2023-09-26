@@ -1,0 +1,86 @@
+html {
+  background-color: #1A1C1D;
+}
+
+.searchbar {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+input[name=q] {
+  background-color: #1A1C1D;
+  width: 500px;
+  height: 45px;
+  margin-bottom: 100px;
+  border: 1px solid rgb(124, 115, 101);
+  border-radius: 50px;
+  padding-left: 35px;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: white;
+}
+
+input[name=q]:hover {
+  background-color: rgb(38, 41, 42);
+}
+
+input[value="Google Search"], [value="Image Search"] {
+  position: absolute;
+  align-items: left;
+  margin-top: 35px;
+  width: 140px;
+  height: 37px;
+  background-color: #26292A;
+  color: white;
+  font-family: "Arial";
+  border: 0.5px solid rgb(124, 115, 101);
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 100;
+  padding-top: 2px;
+}
+
+input[value="Google Search"]:hover, [value="Image Search"]:hover {
+  border: rgb(109, 103, 95);
+}
+
+input[value="Google Search"], [value="Image Search"] {
+  margin-right: 120px;
+}
+
+a[name=homepage2], a[name=advancedpage], a[name=homepage], a[name=imagepage] {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  color: white;
+  font-family: Arial;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+a[name=homepage2]:hover, a[name=advancedpage]:hover, a[name=homepage]:hover, a[name=imagepage]:hover {
+  text-decoration: underline;
+}
+
+a[name=imagepage] {
+  margin-right: 100px;
+  margin-top: 30px;
+}
+
+a[name=homepage] {
+  margin-right: 100px;
+  margin-top: 30px;
+}
+
+a[name=advancedpage] {
+  margin-right: 180px;
+  margin-top: -16.5px;
+}
+
+a[name=homepage2] {
+  margin-right: 200px;
+  margin-top: -16.5px;
+}/*# sourceMappingURL=variable.css.map */
