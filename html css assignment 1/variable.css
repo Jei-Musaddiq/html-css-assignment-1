@@ -83,4 +83,76 @@ a[name=advancedpage] {
 a[name=homepage2] {
   margin-right: 200px;
   margin-top: -16.5px;
+}
+
+h1[name=title] {
+  font-size: 24px;
+  font-family: arial;
+  color: #DE453C;
+  font-weight: 100;
+  border-bottom: 1px solid #363A3C;
+  border-width: 110%;
+  margin-top: 20px;
+}
+
+td > input[type=text] {
+  width: 95%;
+  text-align: left;
+  box-sizing: content-box;
+  display: inline-block;
+  float: none;
+  line-height: normal;
+  position: static;
+  border: 1px solid rgb(59, 64, 66);
+  height: 28px;
+  font-size: 13px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: #2B2A33;
+  font-family: arial;
+  color: white;
+  border-radius: 4px;
+}
+
+td > input[type=text]:focus {
+  border: 1px solid #0E459D;
+  outline: none;
+}
+
+td[class=c1] {
+  width: 230px;
+}
+
+td[class=c2] {
+  width: 550px;
+}
+
+tr {
+  height: 50px;
+}
+
+table {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #363A3C;
+}
+
+input[value="Advanced Search"] {
+  text-align: center;
+  width: 150px;
+  height: 30px;
+  color: #E8E6E3;
+  background-color: #0E459D;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  border: 1px solid #082758;
+  font-weight: 500;
+  margin-left: 610px;
+  padding-top: 3px;
+}
+
+input[value="Advanced Search"]:active {
+  background-color: #155dd1;
 }/*# sourceMappingURL=variable.css.map */
