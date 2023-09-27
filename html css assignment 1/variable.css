@@ -9,7 +9,7 @@ html {
   min-height: 100vh;
 }
 
-input[name=q] {
+input[class=mainbar] {
   background-color: #1A1C1D;
   width: 500px;
   height: 45px;
@@ -22,11 +22,11 @@ input[name=q] {
   color: white;
 }
 
-input[name=q]:hover {
+input[class=mainbar]:hover {
   background-color: rgb(38, 41, 42);
 }
 
-input[value="Google Search"], [value="Image Search"] {
+input[value="I am Feeling Lucky"], input[value="Google Search"], [value="Image Search"] {
   position: absolute;
   align-items: left;
   margin-top: 35px;
@@ -35,23 +35,30 @@ input[value="Google Search"], [value="Image Search"] {
   background-color: #26292A;
   color: white;
   font-family: "Arial";
-  border: 0.5px solid rgb(124, 115, 101);
+  border: 1px solid rgb(124, 115, 101);
   border-radius: 5px;
   font-size: 16px;
   font-weight: 100;
   padding-top: 2px;
 }
 
-input[value="Google Search"]:hover, [value="Image Search"]:hover {
+input[value="I am Feeling Lucky"]:hover, input[value="Google Search"]:hover, [value="Image Search"]:hover {
   border: rgb(109, 103, 95);
 }
 
 input[value="Google Search"], [value="Image Search"] {
-  margin-right: 120px;
+  margin-right: 160px;
+}
+
+input[value="I am Feeling Lucky"] {
+  margin-left: 180px;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 a[name=homepage2], a[name=advancedpage], a[name=homepage], a[name=imagepage] {
   display: flex;
+  flex-wrap: wrap;
   align-items: right;
   justify-content: right;
   color: white;
@@ -63,6 +70,12 @@ a[name=homepage2], a[name=advancedpage], a[name=homepage], a[name=imagepage] {
 
 a[name=homepage2]:hover, a[name=advancedpage]:hover, a[name=homepage]:hover, a[name=imagepage]:hover {
   text-decoration: underline;
+}
+
+a > button {
+  background-color: #1A1C1D;
+  color: white;
+  border: none;
 }
 
 a[name=imagepage] {
@@ -77,12 +90,12 @@ a[name=homepage] {
 
 a[name=advancedpage] {
   margin-right: 180px;
-  margin-top: -16.5px;
+  margin-top: -18.5px;
 }
 
 a[name=homepage2] {
   margin-right: 200px;
-  margin-top: -16.5px;
+  margin-top: -18.5px;
 }
 
 h1[name=title] {

@@ -28,7 +28,7 @@ html {
     background-color: rgb(38,41,42);
 }
 
-input[name="q"] {
+input[class="mainbar"] {
     @extend %searchbartext;  
 
 }
@@ -43,7 +43,7 @@ input[name="q"] {
     background-color: #26292A;
     color: white;
     font-family: 'Arial';
-    border: .5px solid rgb(124,115,101);
+    border: 1px solid rgb(124,115,101);
     border-radius: 5px;
     font-size: 16px;
     font-weight: 100;
@@ -58,15 +58,21 @@ input[name="q"] {
 input[value="Google Search"],[value="Image Search"] {
 
     @extend %searchbuttons;
-    margin-right: 120px;
+    margin-right: 160px;
     
 }
+ input[value="I am Feeling Lucky"] {
+    @extend %searchbuttons;
+    margin-left: 180px;
+    width: fit-content; 
+    
 
-
+ }
 
 
 %pagelinks {
     display: flex;
+    flex-wrap: wrap;
     align-items: right;
     justify-content: right;
     color: white;
@@ -78,6 +84,12 @@ input[value="Google Search"],[value="Image Search"] {
 
 %pagelinks:hover {
     text-decoration: underline;
+}
+
+a >button {
+    background-color: $maincolor;
+    color: white;
+    border: none;
 }
 
 a[name="imagepage"] {
@@ -100,14 +112,14 @@ a[name="advancedpage"] {
  
  @extend %pagelinks;
  margin-right: 180px;
- margin-top: -16.5px;
+ margin-top: -18.5px;
 }
 
 a[name="homepage2"] {
  
     @extend %pagelinks;
     margin-right: 200px;
-    margin-top: -16.5px;
+    margin-top: -18.5px;
    }
 
    h1[name="title"] {
